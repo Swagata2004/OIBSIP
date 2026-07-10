@@ -94,7 +94,7 @@ If you want a more reliable preview, run a simple local server:
 - **VS Code Live Server**
 - **Python HTTP server**
 - **Any static hosting preview**
-
+- **Open at:http://127.0.0.1:5501
 Example using Python:
 
 ```bash
