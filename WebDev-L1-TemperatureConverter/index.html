@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature Converter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero-card" aria-labelledby="app-title">
+      <div class="badge">Interactive temperature tool</div>
+      <h1 id="app-title">Temperature Converter</h1>
+      <p class="subtitle">
+        Convert between Celsius, Fahrenheit, and Kelvin with instant validation and a polished, responsive interface.
+      </p>
+
+      <div class="converter-panel">
+        <div class="field-group">
+          <label for="temperatureInput">Temperature value</label>
+          <input
+            id="temperatureInput"
+            type="number"
+            inputmode="decimal"
+            placeholder="Enter a value"
+            step="any"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="field-row">
+          <div class="field-group">
+            <label for="unitSelect">Input unit</label>
+            <select id="unitSelect">
+              <option value="celsius">Celsius (deg C)</option>
+              <option value="fahrenheit">Fahrenheit (deg F)</option>
+              <option value="kelvin">Kelvin (K)</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label for="modeSelect">Output mode</label>
+            <select id="modeSelect">
+              <option value="all">Show all units</option>
+              <option value="single">Show selected unit only</option>
+            </select>
+          </div>
+        </div>
+
+        <button id="convertBtn" type="button">Convert temperature</button>
+
+        <div class="message" id="messageBox" role="status" aria-live="polite">
+          Enter a temperature to see the conversion results.
+        </div>
+
+        <div class="results-grid" id="resultsGrid" aria-label="Conversion results">
+          <div class="result-card">
+            <span class="result-label">Celsius</span>
+            <strong id="celsiusResult">--</strong>
+          </div>
+          <div class="result-card">
+            <span class="result-label">Fahrenheit</span>
+            <strong id="fahrenheitResult">--</strong>
+          </div>
+          <div class="result-card">
+            <span class="result-label">Kelvin</span>
+            <strong id="kelvinResult">--</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
