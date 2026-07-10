@@ -2,8 +2,8 @@
 OIBSIP - Oasis Infobyte Internship Projects
 A collection of web development projects completed as part of the Oasis Infobyte Internship Program (OIBSIP) Level 1. This repository contains three independent projects built using HTML, CSS, and JavaScript, showcasing fundamental front-end development skills.
 
-📁 Repository Structure/Whole-Project-Folder-Structure
- copy
+📁 Repository Structure/Whole-Project-Folder-Structure:--
+
 OIBSIP/
 │
 ├── WebDev-L1-LandingPage/
@@ -22,7 +22,7 @@ OIBSIP/
 │   └── assets/
 │       ├── images/
 │       └── resume.pdf
-│
+│ 
 ├── WebDev-L1-TemperatureConverter/
 │   ├── index.html
 │   ├── styles.css
@@ -30,7 +30,9 @@ OIBSIP/
 │   └── README.md
 │
 └── README.md
-🚀 Projects Overview
+
+🚀 Projects Overview:--
+
 1. Apexora Landing Page
 Folder: WebDev-L1-LandingPage
 
@@ -69,7 +71,7 @@ Folder: WebDev-L1-TemperatureConverter
 
 An interactive web tool for converting temperatures between three major units in real time.
 
-Features:
+Features:--
 
 🌡️ Input fields for Celsius, Kelvin, and Fahrenheit
 🔁 Dynamic, real-time conversion as you type
