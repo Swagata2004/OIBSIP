@@ -13,7 +13,7 @@ OIBSIP/
 │   ├── README.md
 │   └── assets/
 │       └── images/
-│
+
 ├── WebDev-L1-PersonalPortfolio/
 │   ├── index.html
 │   ├── styles.css
@@ -22,7 +22,7 @@ OIBSIP/
 │   └── assets/
 │       ├── images/
 │       └── resume.pdf
-│ 
+
 ├── WebDev-L1-TemperatureConverter/
 │   ├── index.html
 │   ├── styles.css
