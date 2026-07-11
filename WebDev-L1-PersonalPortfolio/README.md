@@ -1,4 +1,4 @@
-# Swagata Pal Portfolio
+# My Portfolio ##
 
 A modern, responsive personal portfolio website built as a digital portfolio and online resume for Swagata Pal. The site highlights skills, projects, contact details, and a downloadable resume in a polished one-page layout.
 
@@ -58,6 +58,7 @@ portfolio/
 2. Open `index.html` in any modern browser.
 3. For the best experience, keep the `assets` folder in the same directory as the HTML file.
 
+
 ## How to Use
 
 - Use the navigation bar to jump between sections.
@@ -73,7 +74,7 @@ This is a static website, so it can be deployed easily on:
 - Netlify
 - Vercel
 - Any static hosting service
-
+-Open at: https://personal-portfolio-two-orpin-73.vercel.app/
 ### GitHub Pages
 
 1. Push the repository to GitHub.
