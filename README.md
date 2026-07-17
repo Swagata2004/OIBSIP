@@ -9,10 +9,9 @@ OIBSIP/
 ├── WebDev-L1-LandingPage/
 │   ├── index.html
 │   ├── styles.css
-│   ├── script.js
 │   ├── README.md
-│   └── assets/
-│       └── images/
+│   
+│      
 
 ├── WebDev-L1-PersonalPortfolio/
 │   ├── index.html
